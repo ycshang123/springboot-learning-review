@@ -1,0 +1,9 @@
+2020-05-13.00:08:03 INFO  [restartedMain] com.soft1851.springboot.jpa.SpringBootJpaApplication.logStarting:55  Starting SpringBootJpaApplication on LAPTOP-2Q04ONAQ with PID 32592 (D:\dev\SpringBoot\spring-boot-review\spring-boot-jpa\target\classes started by ycshang in D:\dev\SpringBoot\spring-boot-review)
+2020-05-13.00:08:03 INFO  [restartedMain] com.soft1851.springboot.jpa.SpringBootJpaApplication.logStartupProfileInfo:655  The following profiles are active: dev
+2020-05-13.00:08:06 INFO  [restartedMain] com.soft1851.springboot.jpa.SpringBootJpaApplication.logStarted:61  Started SpringBootJpaApplication in 3.862 seconds (JVM running for 4.817)
+2020-05-13.00:14:08 INFO  [restartedMain] com.soft1851.springboot.jpa.SpringBootJpaApplication.logStarting:55  Starting SpringBootJpaApplication on LAPTOP-2Q04ONAQ with PID 32592 (D:\dev\SpringBoot\spring-boot-review\spring-boot-jpa\target\classes started by ycshang in D:\dev\SpringBoot\spring-boot-review)
+2020-05-13.00:14:08 INFO  [restartedMain] com.soft1851.springboot.jpa.SpringBootJpaApplication.logStartupProfileInfo:655  The following profiles are active: dev
+2020-05-13.00:14:09 INFO  [restartedMain] com.soft1851.springboot.jpa.SpringBootJpaApplication.logStarted:61  Started SpringBootJpaApplication in 1.207 seconds (JVM running for 367.637)
+2020-05-13.00:14:13 INFO  [restartedMain] com.soft1851.springboot.jpa.SpringBootJpaApplication.logStarting:55  Starting SpringBootJpaApplication on LAPTOP-2Q04ONAQ with PID 32592 (D:\dev\SpringBoot\spring-boot-review\spring-boot-jpa\target\classes started by ycshang in D:\dev\SpringBoot\spring-boot-review)
+2020-05-13.00:14:13 INFO  [restartedMain] com.soft1851.springboot.jpa.SpringBootJpaApplication.logStartupProfileInfo:655  The following profiles are active: dev
+2020-05-13.00:14:15 INFO  [restartedMain] com.soft1851.springboot.jpa.SpringBootJpaApplication.logStarted:61  Started SpringBootJpaApplication in 2.065 seconds (JVM running for 373.479)
