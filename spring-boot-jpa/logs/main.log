@@ -4,3 +4,6 @@
 2020-05-13.00:15:05 INFO  [main] com.soft1851.springboot.jpa.dao.UserRepositoryTest.logStarting:55  Starting UserRepositoryTest on LAPTOP-2Q04ONAQ with PID 7524 (started by ycshang in D:\dev\SpringBoot\spring-boot-review\spring-boot-jpa)
 2020-05-13.00:15:05 INFO  [main] com.soft1851.springboot.jpa.dao.UserRepositoryTest.logStartupProfileInfo:655  The following profiles are active: dev
 2020-05-13.00:15:12 INFO  [main] com.soft1851.springboot.jpa.dao.UserRepositoryTest.logStarted:61  Started UserRepositoryTest in 7.953 seconds (JVM running for 9.65)
+2020-05-13.00:36:42 INFO  [main] com.soft1851.springboot.jpa.dao.UserRepositoryTest.logStarting:55  Starting UserRepositoryTest on LAPTOP-2Q04ONAQ with PID 7508 (started by ycshang in D:\dev\SpringBoot\spring-boot-review\spring-boot-jpa)
+2020-05-13.00:36:42 INFO  [main] com.soft1851.springboot.jpa.dao.UserRepositoryTest.logStartupProfileInfo:655  The following profiles are active: dev
+2020-05-13.00:36:48 INFO  [main] com.soft1851.springboot.jpa.dao.UserRepositoryTest.logStarted:61  Started UserRepositoryTest in 7.52 seconds (JVM running for 9.761)
