@@ -1,6 +1,10 @@
-package com.soft1851.springboot.jpa.dao;
+package com.soft1851.springboot.jpa.repositiry;
 
 import com.soft1851.springboot.jpa.model.User;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Slice;
+import org.springframework.data.domain.Sort;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
@@ -78,5 +82,33 @@ public interface UserRepository extends JpaRepository<User,Long> {
     @Transactional(rollbackFor = RuntimeException.class)
     @Query(value = "insert into user(user_name, password,email) values (:userName, :password,:email)", nativeQuery = true)
     int insertUser(@Param("userName") String userName,@Param("password") String password,@Param("email") String email);
+
+
+    /**
+     * 在model通过@NamedQueries定义sql语句，实现查询
+     * @param password
+     * @return
+     */
+    List<User> findByPassword(String password);
+
+    /**
+     * 通过昵称查询用户
+     * @param nickname
+     * @return
+     */
+    List<User> findByNickName(String nickname);
+
+    @Query("select u from User u")
+    Page<User> findALL(Pageable pageable);
+
+    Page<User> findByNickName(String nickname,Pageable pageable);
+
+
+    Slice<User> findByNickNameAndEmail(String nickname,String email,Pageable pageable);
+
+
+    User findTopByOrderByAgeDesc();
+
+
 
 }

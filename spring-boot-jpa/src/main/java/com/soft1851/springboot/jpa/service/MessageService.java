@@ -1,6 +1,7 @@
 package com.soft1851.springboot.jpa.service;
 
 import com.soft1851.springboot.jpa.model.Message;
+import com.soft1851.springboot.jpa.param.UserDetailParam;
 
 import java.util.List;
 

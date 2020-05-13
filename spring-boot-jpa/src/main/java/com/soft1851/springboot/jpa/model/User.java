@@ -8,12 +8,17 @@ import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 import java.time.LocalDateTime;
+import java.util.List;
 
 @Entity
 @Data
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
+@NamedQueries({
+        @NamedQuery(name="User.findByPassWord",query="select u from User u where u.password = ?1"),
+        @NamedQuery(name="User.findByNickName",query = "select u from User u where u.nickName =?1")
+})
 public class User {
     /**
      * 主键，策略为自增
@@ -42,5 +47,6 @@ public class User {
 
     @Column
     private LocalDateTime regTime;
+
 }
 

@@ -1,6 +1,6 @@
 package com.soft1851.springboot.jpa.service.Impl;
 
-import com.soft1851.springboot.jpa.dao.MessageRepository;
+import com.soft1851.springboot.jpa.repositiry.MessageRepository;
 import com.soft1851.springboot.jpa.model.Message;
 import com.soft1851.springboot.jpa.service.MessageService;
 import org.springframework.stereotype.Service;

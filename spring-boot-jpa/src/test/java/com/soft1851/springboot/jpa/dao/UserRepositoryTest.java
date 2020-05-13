@@ -1,14 +1,12 @@
 package com.soft1851.springboot.jpa.dao;
 
 import com.soft1851.springboot.jpa.model.User;
+import com.soft1851.springboot.jpa.repositiry.UserRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.data.domain.Example;
-import org.springframework.data.domain.Page;
-import org.springframework.data.domain.PageRequest;
-import org.springframework.data.domain.Sort;
+import org.springframework.data.domain.*;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;
@@ -97,24 +95,24 @@ class UserRepositoryTest {
     @Test
     void findById() {
         Long id = 1L;
-        System.out.println(">>>>>>>>>>>>>>自定义根据id查找用户"+userRepository.findById(id));
+        System.out.println(">>>>>>>>>>>>>>自定义根据id查找用户" + userRepository.findById(id));
     }
 
     @Test
     void updateNickName() {
         String nickname = "修改用户名";
         long id = 2L;
-        int n =userRepository.updateNickName(nickname,id);
-        System.out.println(">>>>>>>>>>>>>>>>得到的count为"+n);
+        int n = userRepository.updateNickName(nickname, id);
+        System.out.println(">>>>>>>>>>>>>>>>得到的count为" + n);
     }
 
     @Test
     void insertUser() {
         String name = "新增用户";
-        String password ="123456";
-        String email ="333@qq.com";
-        int count = userRepository.insertUser(name,password,email);
-        System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>新增用户条数"+count);
+        String password = "123456";
+        String email = "333@qq.com";
+        int count = userRepository.insertUser(name, password, email);
+        System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>新增用户条数" + count);
     }
 
     @Test
@@ -168,4 +166,38 @@ class UserRepositoryTest {
         Optional<User> optionalUser = userRepository.findOne(Example.of(user1));
         log.info("单个查询结果： {}", optionalUser.orElse(null));
     }
+
+    @Test
+    void findByPassword() {
+        String password = "123456";
+        List<User> users = userRepository.findByPassword(password);
+        users.forEach(System.out::println);
+    }
+
+    @Test
+    void findByNickName() {
+        String nickname = "nickName1";
+        List<User> users = userRepository.findByNickName(nickname);
+        System.out.println(users.size());
+
+    }
+
+    @Test
+    void findALL() {
+        Pageable pageable = PageRequest.of(1, 10, Sort.Direction.ASC, "id");
+        userRepository.findALL(pageable).forEach(System.out::println);
+    }
+
+    @Test
+    void testFindByNickName() {
+        Pageable pageable = PageRequest.of(1, 10, Sort.Direction.ASC, "id");
+        userRepository.findByNickName("nickName",pageable).forEach(System.out::println);
+    }
+
+    @Test
+    void findTopByOrderByAgeDesc() {
+        System.out.println(userRepository.findTopByOrderByAgeDesc());
+    }
+
+
 }
