@@ -1,4 +1,4 @@
-package com.soft1851.springboot.jpa.repositiry;
+package com.soft1851.springboot.jpa.repository;
 
 import com.soft1851.springboot.jpa.model.Message;
 import org.springframework.data.domain.Page;

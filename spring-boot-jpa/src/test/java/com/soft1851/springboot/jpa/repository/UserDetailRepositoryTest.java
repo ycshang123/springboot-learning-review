@@ -1,4 +1,4 @@
-package com.soft1851.springboot.jpa.repositiry;
+package com.soft1851.springboot.jpa.repository;
 
 import com.soft1851.springboot.jpa.dao.UserInfo;
 import org.junit.jupiter.api.Test;
@@ -7,8 +7,6 @@ import org.springframework.boot.test.context.SpringBootTest;
 import javax.annotation.Resource;
 
 import java.util.List;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 @SpringBootTest
 class UserDetailRepositoryTest {

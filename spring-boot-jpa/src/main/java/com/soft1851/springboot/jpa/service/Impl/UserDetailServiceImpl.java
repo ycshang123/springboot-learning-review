@@ -1,7 +1,7 @@
 package com.soft1851.springboot.jpa.service.Impl;
 
 
-import com.soft1851.springboot.jpa.repositiry.UserDetailRepository;
+import com.soft1851.springboot.jpa.repository.UserDetailRepository;
 import com.soft1851.springboot.jpa.model.UserDetail;
 import com.soft1851.springboot.jpa.param.UserDetailParam;
 import com.soft1851.springboot.jpa.service.UserDetailService;

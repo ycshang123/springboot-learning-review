@@ -1,7 +1,7 @@
 package com.soft1851.springboot.jpa.dao;
 
 import com.soft1851.springboot.jpa.model.Message;
-import com.soft1851.springboot.jpa.repositiry.MessageRepository;
+import com.soft1851.springboot.jpa.repository.MessageRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

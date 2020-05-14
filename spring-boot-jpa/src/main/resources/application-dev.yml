@@ -11,16 +11,19 @@ spring:
     hibernate:
       ddl-auto: update
   datasource:
-    url: jdbc:mysql://127.0.0.1:3306/test?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=UTF-8&useSSL=false
-    username: root
-    password: root
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    type: com.zaxxer.hikari.HikariDataSource
+    primary:
+      jdbc-url: jdbc:mysql://127.0.0.1:3306/test?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=UTF-8&useSSL=false
+      username: root
+      password: root
+      driver-class-name: com.mysql.cj.jdbc.Driver
+    secondary:
+      jdbc-url: jdbc:mysql://127.0.0.1:3306/test1?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=UTF-8&useSSL=false
+      username: root
+      password: root
+      driver-class-name: com.mysql.cj.jdbc.Driver
     hikari:
-      auto-commit: true
-      minimum-idle: 2
-      idle-timeout: 60000
-      connection-timeout: 30000
-      max-lifetime: 1800000
-      pool-name: MyHikariCP
-      maximum-pool-size: 15
+      maximumPoolSize: 10
+      minimumIdle: 10
+      idleTimeout: 600000
+      connectionTimeout: 30000
+      max-lifetime: 180000
