@@ -17,49 +17,49 @@ import javax.sql.DataSource;
 import java.util.Map;
 import java.util.Objects;
 
-//@Configuration
-//@EnableTransactionManagement
-//@EnableJpaRepositories(
-//        entityManagerFactoryRef = "entityManagerFactoryPrimary",
-//        transactionManagerRef = "transactionManagerPrimary",
-//        //设置dao（repo）所在位置
-//        basePackages = {"com.soft1851.springboot.jpa.repository.test"})
-//
+@Configuration
+@EnableTransactionManagement
+@EnableJpaRepositories(
+        entityManagerFactoryRef = "entityManagerFactoryPrimary",
+        transactionManagerRef = "transactionManagerPrimary",
+        //设置dao（repo）所在位置
+        basePackages = {"com.soft1851.springboot.jpa.repository.test"})
+
 
 public class PrimaryConfig {
 
-//    @Resource
-//    @Qualifier("primaryDataSource")
-//    private DataSource primaryDataSource;
-//
-//
-//    @Resource
-//    @Qualifier("vendorProperties")
-//    private Map<String, Object> vendorProperties;
-//
-//
-//    @Bean(name = "entityManagerFactoryPrimary")
-//    @Primary
-//    public LocalContainerEntityManagerFactoryBean entityManagerFactoryPrimary(EntityManagerFactoryBuilder builder) {
-//        return builder
-//                .dataSource(primaryDataSource)
-//                .properties(vendorProperties)
-//                //设置实体类所在位置
-//                .packages("com.soft1851.springboot.jpa.model")
-//                .persistenceUnit("primaryPersistenceUnit")
-//                .build();
-//    }
+    @Resource
+    @Qualifier("primaryDataSource")
+    private DataSource primaryDataSource;
 
-//    @Bean(name = "entityManagerPrimary")
-//    @Primary
-//    public EntityManager entityManager(EntityManagerFactoryBuilder builder) {
-//        return Objects.requireNonNull(entityManagerFactoryPrimary(builder).getObject()).createEntityManager();
-//    }
-//
-//    @Bean(name = "transactionManagerPrimary")
-//    @Primary
-//    PlatformTransactionManager transactionManagerPrimary(EntityManagerFactoryBuilder builder) {
-//        return new JpaTransactionManager(Objects.requireNonNull(entityManagerFactoryPrimary(builder).getObject()));
-//    }
+
+    @Resource
+    @Qualifier("vendorProperties")
+    private Map<String, Object> vendorProperties;
+
+
+    @Bean(name = "entityManagerFactoryPrimary")
+    @Primary
+    public LocalContainerEntityManagerFactoryBean entityManagerFactoryPrimary(EntityManagerFactoryBuilder builder) {
+        return builder
+                .dataSource(primaryDataSource)
+                .properties(vendorProperties)
+                //设置实体类所在位置
+                .packages("com.soft1851.springboot.jpa.model")
+                .persistenceUnit("primaryPersistenceUnit")
+                .build();
+    }
+
+    @Bean(name = "entityManagerPrimary")
+    @Primary
+    public EntityManager entityManager(EntityManagerFactoryBuilder builder) {
+        return Objects.requireNonNull(entityManagerFactoryPrimary(builder).getObject()).createEntityManager();
+    }
+
+    @Bean(name = "transactionManagerPrimary")
+    @Primary
+    PlatformTransactionManager transactionManagerPrimary(EntityManagerFactoryBuilder builder) {
+        return new JpaTransactionManager(Objects.requireNonNull(entityManagerFactoryPrimary(builder).getObject()));
+    }
 
 }

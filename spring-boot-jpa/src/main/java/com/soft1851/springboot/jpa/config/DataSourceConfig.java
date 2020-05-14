@@ -18,32 +18,32 @@ import java.util.jar.JarEntry;
 /**
  * @author ycshang
  */
-//@Configuration
-//@ConfigurationProperties(prefix = "spring")
+@Configuration
+@ConfigurationProperties(prefix = "spring")
 public class DataSourceConfig {
 
-//    @Resource
-//    private JpaProperties jpaProperties;
-//    @Resource
-//    private HibernateProperties hibernateProperties;
-//
-//
-//    @Bean(name ="primaryDataSource")
-//    @Primary
-//    @ConfigurationProperties("spring.datasource.primary")
-//    public DataSource  firstDataSource(){
-//        return DataSourceBuilder.create().build();
-//    }
-//
-//
-//    @Bean(name="secondaryDataSource")
-//    @ConfigurationProperties("spring.datasource.secondary")
-//    public DataSource secondDataSource(){
-//        return DataSourceBuilder.create().build();
-//    }
-//
-//    @Bean(name="vendorProperties")
-//    public Map<String,Object> getVendorProperties(){
-//        return hibernateProperties.determineHibernateProperties(jpaProperties.getProperties(),new HibernateSettings());
-//    }
+    @Resource
+    private JpaProperties jpaProperties;
+    @Resource
+    private HibernateProperties hibernateProperties;
+
+
+    @Bean(name ="primaryDataSource")
+    @Primary
+    @ConfigurationProperties("spring.datasource.primary")
+    public DataSource  firstDataSource(){
+        return DataSourceBuilder.create().build();
+    }
+
+
+    @Bean(name="secondaryDataSource")
+    @ConfigurationProperties("spring.datasource.secondary")
+    public DataSource secondDataSource(){
+        return DataSourceBuilder.create().build();
+    }
+
+    @Bean(name="vendorProperties")
+    public Map<String,Object> getVendorProperties(){
+        return hibernateProperties.determineHibernateProperties(jpaProperties.getProperties(),new HibernateSettings());
+    }
 }

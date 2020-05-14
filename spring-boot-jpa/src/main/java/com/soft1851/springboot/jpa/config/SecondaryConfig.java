@@ -15,41 +15,41 @@ import javax.persistence.EntityManager;
 import javax.sql.DataSource;
 import java.util.Map;
 import java.util.Objects;
-//@Configuration
-//@EnableTransactionManagement
-//@EnableJpaRepositories(
-//        entityManagerFactoryRef = "entityManagerFactorySecondary",
-//        transactionManagerRef = "transactionManagerSecondary",
-//        basePackages = {"com.soft1851.springboot.jpa.repository.test1"})
+@Configuration
+@EnableTransactionManagement
+@EnableJpaRepositories(
+        entityManagerFactoryRef = "entityManagerFactorySecondary",
+        transactionManagerRef = "transactionManagerSecondary",
+        basePackages = {"com.soft1851.springboot.jpa.repository.test1"})
 public class SecondaryConfig {
 
-//    @Resource
-//    @Qualifier("secondaryDataSource")
-//    private DataSource secondaryDataSource;
-//
-//    @Resource
-//    @Qualifier("vendorProperties")
-//    private Map<String, Object> vendorProperties;
-//
-//    @Bean(name = "entityManagerFactorySecondary")
-//    public LocalContainerEntityManagerFactoryBean entityManagerFactorySecondary(EntityManagerFactoryBuilder builder) {
-//        return builder
-//                .dataSource(secondaryDataSource)
-//                .properties(vendorProperties)
-//                .packages("com.soft1851.springboot.jpa.model")
-//                .persistenceUnit("secondaryPersistenceUnit")
-//                .build();
-//    }
+    @Resource
+    @Qualifier("secondaryDataSource")
+    private DataSource secondaryDataSource;
 
-//    @Bean(name = "entityManagerSecondary")
-//    public EntityManager entityManager(EntityManagerFactoryBuilder builder) {
-//        return Objects.requireNonNull(entityManagerFactorySecondary(builder).getObject()).createEntityManager();
-//    }
-//
-//    @Bean(name = "transactionManagerSecondary")
-//    PlatformTransactionManager transactionManagerSecondary(EntityManagerFactoryBuilder builder) {
-//        return new JpaTransactionManager(Objects.requireNonNull(entityManagerFactorySecondary(builder).getObject()));
-//    }
+    @Resource
+    @Qualifier("vendorProperties")
+    private Map<String, Object> vendorProperties;
+
+    @Bean(name = "entityManagerFactorySecondary")
+    public LocalContainerEntityManagerFactoryBean entityManagerFactorySecondary(EntityManagerFactoryBuilder builder) {
+        return builder
+                .dataSource(secondaryDataSource)
+                .properties(vendorProperties)
+                .packages("com.soft1851.springboot.jpa.model")
+                .persistenceUnit("secondaryPersistenceUnit")
+                .build();
+    }
+
+    @Bean(name = "entityManagerSecondary")
+    public EntityManager entityManager(EntityManagerFactoryBuilder builder) {
+        return Objects.requireNonNull(entityManagerFactorySecondary(builder).getObject()).createEntityManager();
+    }
+
+    @Bean(name = "transactionManagerSecondary")
+    PlatformTransactionManager transactionManagerSecondary(EntityManagerFactoryBuilder builder) {
+        return new JpaTransactionManager(Objects.requireNonNull(entityManagerFactorySecondary(builder).getObject()));
+    }
 
 }
 

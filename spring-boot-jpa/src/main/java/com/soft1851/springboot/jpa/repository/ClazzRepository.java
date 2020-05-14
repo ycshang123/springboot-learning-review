@@ -11,4 +11,5 @@ public interface ClazzRepository  extends JpaRepository<Clazz,Integer> {
      * @return
      */
     Clazz findClazzByIdEquals(int id);
+
 }

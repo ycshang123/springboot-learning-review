@@ -28,4 +28,8 @@ public class Clazz {
     @OneToMany(cascade = CascadeType.ALL,fetch = FetchType.EAGER)
     @JoinColumn(name ="clazz_id")
     private List<Student> studentList = new ArrayList<>();
+
+//    @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+//    @JoinColumn(name = "clazz_id")
+//    private List<Student> studentList;
 }

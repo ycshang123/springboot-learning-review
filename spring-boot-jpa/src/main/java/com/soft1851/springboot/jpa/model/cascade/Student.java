@@ -7,6 +7,8 @@ import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 import java.time.LocalDateTime;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * @author ycshang
@@ -27,4 +29,10 @@ public class Student {
 
    @Column(name ="age",nullable = false,length = 30)
     private Integer age;
+
+   @ManyToMany(cascade = CascadeType.ALL,fetch = FetchType.EAGER)
+    @JoinTable(name ="student_course",joinColumns = @JoinColumn(name ="student_id"),
+    inverseJoinColumns = @JoinColumn(name = "course_id"))
+    private List<Course> courseList = new ArrayList<>();
+
 }
