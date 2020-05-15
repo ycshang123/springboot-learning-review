@@ -10,7 +10,7 @@ import java.time.format.DateTimeFormatter;
 /**
  * @author ycshang
  */
-@Component
+//@Component
 public class Task2 {
     private DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy年MM月dd日 HH:mm:ss");
 
