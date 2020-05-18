@@ -20,8 +20,8 @@ import org.springframework.stereotype.Component;
 
 import javax.annotation.Resource;
 
-@Component
-@EnableScheduling
+//@Component
+//@EnableScheduling
 @Slf4j
 public class MultithreadScheduleTask {
     @Resource
@@ -43,7 +43,7 @@ public class MultithreadScheduleTask {
 
     @Async
 //    @Scheduled(fixedRate = 2000)
-    @Scheduled(cron ="0 26 9 * * ?")
+    @Scheduled(cron ="0 36 11 * * ?")
     public void getCode() {
         int index = RandomUtil.randomInt(1, 4);
         Coder coder = coderRepository.findById(index).get();

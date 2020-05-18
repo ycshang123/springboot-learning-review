@@ -1,0 +1,570 @@
+2020-05-18 21:29:08.729  INFO   --- [main] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2020-05-18 21:29:08.733  INFO   --- [main] org.quartz.simpl.SimpleThreadPool        : Job execution threads will use class loader of thread: main
+2020-05-18 21:29:08.740  INFO   --- [main] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-05-18 21:29:08.741  INFO   --- [main] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.2 created.
+2020-05-18 21:29:08.742  INFO   --- [main] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2020-05-18 21:29:08.742  INFO   --- [main] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-05-18 21:29:08.742  INFO   --- [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2020-05-18 21:29:08.742  INFO   --- [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.2
+2020-05-18 21:29:28.742  INFO   --- [main] c.s.s.t.scheduling.quartz.QuartzManager  : 任务testJob被删除
+2020-05-18 21:29:28.743  INFO   --- [main] c.s.s.t.scheduling.quartz.QuartzManager  : 所有任务关闭
+2020-05-18 21:31:42.301  INFO   --- [main] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2020-05-18 21:31:42.305  INFO   --- [main] org.quartz.simpl.SimpleThreadPool        : Job execution threads will use class loader of thread: main
+2020-05-18 21:31:42.312  INFO   --- [main] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-05-18 21:31:42.312  INFO   --- [main] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.2 created.
+2020-05-18 21:31:42.313  INFO   --- [main] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2020-05-18 21:31:42.313  INFO   --- [main] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-05-18 21:31:42.313  INFO   --- [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2020-05-18 21:31:42.313  INFO   --- [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.2
+2020-05-18 21:32:02.313  INFO   --- [main] c.s.s.t.scheduling.quartz.QuartzManager  : 任务testJob被删除
+2020-05-18 21:32:02.315  INFO   --- [main] c.s.s.t.scheduling.quartz.QuartzManager  : 所有任务关闭
+2020-05-18 21:38:42.685  INFO   --- [main] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2020-05-18 21:38:42.689  INFO   --- [main] org.quartz.simpl.SimpleThreadPool        : Job execution threads will use class loader of thread: main
+2020-05-18 21:38:42.700  INFO   --- [main] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-05-18 21:38:42.700  INFO   --- [main] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.2 created.
+2020-05-18 21:38:42.700  INFO   --- [main] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2020-05-18 21:38:42.701  INFO   --- [main] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-05-18 21:38:42.701  INFO   --- [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2020-05-18 21:38:42.701  INFO   --- [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.2
+2020-05-18 21:39:02.702  INFO   --- [main] c.s.s.t.scheduling.quartz.QuartzManager  : 任务testJob被删除
+2020-05-18 21:39:02.703  INFO   --- [main] c.s.s.t.scheduling.quartz.QuartzManager  : 所有任务关闭
+2020-05-18 22:26:30.136  INFO 21368 --- [restartedMain] c.s.s.q.SpringBootQuartzApplication      : Starting SpringBootQuartzApplication on LAPTOP-2Q04ONAQ with PID 21368 (D:\dev\SpringBoot\spring-boot-review\spring-boot-quartz\target\classes started by ycshang in D:\dev\SpringBoot\spring-boot-review)
+2020-05-18 22:26:30.139  INFO 21368 --- [restartedMain] c.s.s.q.SpringBootQuartzApplication      : No active profile set, falling back to default profiles: default
+2020-05-18 22:26:30.203  INFO 21368 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in D:\tools\maven_jar\com\mchange\c3p0\0.9.5.3\c3p0-0.9.5.3.jar referenced one or more files that do not exist: file:/D:/tools/maven_jar/com/mchange/c3p0/0.9.5.3/mchange-commons-java-0.2.15.jar
+2020-05-18 22:26:30.204  INFO 21368 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-05-18 22:26:30.204  INFO 21368 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-05-18 22:26:30.929  INFO 21368 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-05-18 22:26:30.984  INFO 21368 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 47ms. Found 1 JPA repository interfaces.
+2020-05-18 22:26:31.397  INFO 21368 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-05-18 22:26:31.404  INFO 21368 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-05-18 22:26:31.405  INFO 21368 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-05-18 22:26:31.406  INFO 21368 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-05-18 22:26:31.406  INFO 21368 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-05-18 22:26:31.407  INFO 21368 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-05-18 22:26:31.410  INFO 21368 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-05-18 22:26:31.492  INFO 21368 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-05-18 22:26:31.492  INFO 21368 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1288 ms
+2020-05-18 22:26:31.629  INFO 21368 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-18 22:26:31.636  INFO 21368 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-05-18 22:26:31.748  INFO 21368 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-05-18 22:26:31.792  INFO 21368 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-18 22:26:31.837  INFO 21368 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.15.Final
+2020-05-18 22:26:31.947  INFO 21368 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-18 22:26:32.050  INFO 21368 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-05-18 22:26:32.469  INFO 21368 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-18 22:26:32.476  INFO 21368 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-05-18 22:26:32.702  INFO 21368 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2020-05-18 22:26:32.710  INFO 21368 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-05-18 22:26:32.710  INFO 21368 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.2 created.
+2020-05-18 22:26:32.713  INFO 21368 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Using db table-based data access locking (synchronization).
+2020-05-18 22:26:32.714  INFO 21368 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : JobStoreCMT initialized.
+2020-05-18 22:26:32.715  INFO 21368 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'schedulerFactoryBean' with instanceId 'LAPTOP-2Q04ONAQ1589811992703'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 20 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+2020-05-18 22:26:32.715  INFO 21368 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+2020-05-18 22:26:32.715  INFO 21368 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.2
+2020-05-18 22:26:32.715  INFO 21368 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: com.soft1851.springboot.quartz.config.QuartzConfig$AutowiringSpringBeanJobFactory@43ef88b5
+2020-05-18 22:26:32.841  WARN 21368 --- [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1146, SQLState: 42S02
+2020-05-18 22:26:32.850  WARN 21368 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dynamicJobController': Invocation of init method failed; nested exception is org.springframework.dao.InvalidDataAccessResourceUsageException: could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2020-05-18 22:26:32.850  INFO 21368 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2020-05-18 22:26:32.850  INFO 21368 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_LAPTOP-2Q04ONAQ1589811992703 shutting down.
+2020-05-18 22:26:32.850  INFO 21368 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_LAPTOP-2Q04ONAQ1589811992703 paused.
+2020-05-18 22:26:32.851  INFO 21368 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_LAPTOP-2Q04ONAQ1589811992703 shutdown complete.
+2020-05-18 22:26:32.851  INFO 21368 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-05-18 22:26:32.853  INFO 21368 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-18 22:26:32.854  INFO 21368 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-05-18 22:26:32.861  INFO 21368 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-05-18 22:26:32.863  INFO 21368 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-05-18 22:26:32.872  INFO 21368 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-05-18 22:26:32.883  WARN 21368 --- [restartedMain] o.s.boot.SpringApplication               : Unable to close ApplicationContext
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springApplicationAdminRegistrar' defined in class path resource [org/springframework/boot/autoconfigure/admin/SpringApplicationAdminJmxAutoConfiguration.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry' available
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:512)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.context.event.AbstractApplicationEventMulticaster.retrieveApplicationListeners(AbstractApplicationEventMulticaster.java:245)
+	at org.springframework.context.event.AbstractApplicationEventMulticaster.getApplicationListeners(AbstractApplicationEventMulticaster.java:197)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:134)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:403)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:360)
+	at org.springframework.boot.availability.AvailabilityChangeEvent.publish(AvailabilityChangeEvent.java:81)
+	at org.springframework.boot.availability.AvailabilityChangeEvent.publish(AvailabilityChangeEvent.java:67)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:167)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:978)
+	at org.springframework.boot.SpringApplication.handleRunFailure(SpringApplication.java:814)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:325)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.soft1851.springboot.quartz.SpringBootQuartzApplication.main(SpringBootQuartzApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry' available
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:603)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:409)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.aop.framework.autoproxy.BeanFactoryAdvisorRetrievalHelper.findAdvisorBeans(BeanFactoryAdvisorRetrievalHelper.java:91)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findCandidateAdvisors(AbstractAdvisorAutoProxyCreator.java:109)
+	at org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator.findCandidateAdvisors(AnnotationAwareAspectJAutoProxyCreator.java:92)
+	at org.springframework.aop.aspectj.autoproxy.AspectJAwareAdvisorAutoProxyCreator.shouldSkip(AspectJAwareAdvisorAutoProxyCreator.java:101)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessBeforeInstantiation(AbstractAutoProxyCreator.java:251)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInstantiation(AbstractAutowireCapableBeanFactory.java:1141)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeforeInstantiation(AbstractAutowireCapableBeanFactory.java:1114)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:506)
+	... 23 common frames omitted
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry' available
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.java:814)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1282)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:297)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor.postProcessBeforeInitialization(ConfigurationClassPostProcessor.java:456)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:416)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1788)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	... 45 common frames omitted
+
+2020-05-18 22:28:08.492  INFO 20732 --- [restartedMain] c.s.s.q.SpringBootQuartzApplication      : Starting SpringBootQuartzApplication on LAPTOP-2Q04ONAQ with PID 20732 (D:\dev\SpringBoot\spring-boot-review\spring-boot-quartz\target\classes started by ycshang in D:\dev\SpringBoot\spring-boot-review)
+2020-05-18 22:28:08.495  INFO 20732 --- [restartedMain] c.s.s.q.SpringBootQuartzApplication      : No active profile set, falling back to default profiles: default
+2020-05-18 22:28:08.548  INFO 20732 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in D:\tools\maven_jar\com\mchange\c3p0\0.9.5.3\c3p0-0.9.5.3.jar referenced one or more files that do not exist: file:/D:/tools/maven_jar/com/mchange/c3p0/0.9.5.3/mchange-commons-java-0.2.15.jar
+2020-05-18 22:28:08.548  INFO 20732 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-05-18 22:28:08.549  INFO 20732 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-05-18 22:28:09.367  INFO 20732 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-05-18 22:28:09.420  INFO 20732 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 46ms. Found 1 JPA repository interfaces.
+2020-05-18 22:28:09.836  INFO 20732 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-05-18 22:28:09.842  INFO 20732 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-05-18 22:28:09.843  INFO 20732 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-05-18 22:28:09.844  INFO 20732 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-05-18 22:28:09.844  INFO 20732 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-05-18 22:28:09.845  INFO 20732 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-05-18 22:28:09.847  INFO 20732 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-05-18 22:28:09.930  INFO 20732 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-05-18 22:28:09.930  INFO 20732 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1381 ms
+2020-05-18 22:28:10.057  INFO 20732 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-18 22:28:10.063  INFO 20732 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-05-18 22:28:10.168  INFO 20732 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-05-18 22:28:10.206  INFO 20732 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-18 22:28:10.247  INFO 20732 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.15.Final
+2020-05-18 22:28:10.348  INFO 20732 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-18 22:28:10.443  INFO 20732 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-05-18 22:28:10.788  INFO 20732 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-18 22:28:10.794  INFO 20732 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-05-18 22:28:10.987  INFO 20732 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2020-05-18 22:28:10.994  INFO 20732 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-05-18 22:28:10.994  INFO 20732 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.2 created.
+2020-05-18 22:28:10.997  INFO 20732 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Using db table-based data access locking (synchronization).
+2020-05-18 22:28:10.998  INFO 20732 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : JobStoreCMT initialized.
+2020-05-18 22:28:10.999  INFO 20732 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'schedulerFactoryBean' with instanceId 'LAPTOP-2Q04ONAQ1589812090988'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 20 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+2020-05-18 22:28:10.999  INFO 20732 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+2020-05-18 22:28:10.999  INFO 20732 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.2
+2020-05-18 22:28:10.999  INFO 20732 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: com.soft1851.springboot.quartz.config.QuartzConfig$AutowiringSpringBeanJobFactory@3eda4f94
+2020-05-18 22:28:11.097  WARN 20732 --- [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1146, SQLState: 42S02
+2020-05-18 22:28:11.105  WARN 20732 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dynamicJobController': Invocation of init method failed; nested exception is org.springframework.dao.InvalidDataAccessResourceUsageException: could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2020-05-18 22:28:11.105  INFO 20732 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2020-05-18 22:28:11.105  INFO 20732 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_LAPTOP-2Q04ONAQ1589812090988 shutting down.
+2020-05-18 22:28:11.105  INFO 20732 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_LAPTOP-2Q04ONAQ1589812090988 paused.
+2020-05-18 22:28:11.105  INFO 20732 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_LAPTOP-2Q04ONAQ1589812090988 shutdown complete.
+2020-05-18 22:28:11.106  INFO 20732 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-05-18 22:28:11.107  INFO 20732 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-18 22:28:11.109  INFO 20732 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-05-18 22:28:11.114  INFO 20732 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-05-18 22:28:11.116  INFO 20732 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-05-18 22:28:11.124  INFO 20732 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-05-18 22:28:11.132  WARN 20732 --- [restartedMain] o.s.boot.SpringApplication               : Unable to close ApplicationContext
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springApplicationAdminRegistrar' defined in class path resource [org/springframework/boot/autoconfigure/admin/SpringApplicationAdminJmxAutoConfiguration.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry' available
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:512)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.context.event.AbstractApplicationEventMulticaster.retrieveApplicationListeners(AbstractApplicationEventMulticaster.java:245)
+	at org.springframework.context.event.AbstractApplicationEventMulticaster.getApplicationListeners(AbstractApplicationEventMulticaster.java:197)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:134)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:403)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:360)
+	at org.springframework.boot.availability.AvailabilityChangeEvent.publish(AvailabilityChangeEvent.java:81)
+	at org.springframework.boot.availability.AvailabilityChangeEvent.publish(AvailabilityChangeEvent.java:67)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:167)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:978)
+	at org.springframework.boot.SpringApplication.handleRunFailure(SpringApplication.java:814)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:325)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.soft1851.springboot.quartz.SpringBootQuartzApplication.main(SpringBootQuartzApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry' available
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:603)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:409)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.aop.framework.autoproxy.BeanFactoryAdvisorRetrievalHelper.findAdvisorBeans(BeanFactoryAdvisorRetrievalHelper.java:91)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findCandidateAdvisors(AbstractAdvisorAutoProxyCreator.java:109)
+	at org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator.findCandidateAdvisors(AnnotationAwareAspectJAutoProxyCreator.java:92)
+	at org.springframework.aop.aspectj.autoproxy.AspectJAwareAdvisorAutoProxyCreator.shouldSkip(AspectJAwareAdvisorAutoProxyCreator.java:101)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessBeforeInstantiation(AbstractAutoProxyCreator.java:251)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInstantiation(AbstractAutowireCapableBeanFactory.java:1141)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeforeInstantiation(AbstractAutowireCapableBeanFactory.java:1114)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:506)
+	... 23 common frames omitted
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry' available
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.java:814)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1282)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:297)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor.postProcessBeforeInitialization(ConfigurationClassPostProcessor.java:456)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:416)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1788)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	... 45 common frames omitted
+
+2020-05-18 22:33:44.854  INFO 11016 --- [restartedMain] c.s.s.q.SpringBootQuartzApplication      : Starting SpringBootQuartzApplication on LAPTOP-2Q04ONAQ with PID 11016 (D:\dev\SpringBoot\spring-boot-review\spring-boot-quartz\target\classes started by ycshang in D:\dev\SpringBoot\spring-boot-review)
+2020-05-18 22:33:44.856  INFO 11016 --- [restartedMain] c.s.s.q.SpringBootQuartzApplication      : No active profile set, falling back to default profiles: default
+2020-05-18 22:33:44.889  INFO 11016 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in D:\tools\maven_jar\com\mchange\c3p0\0.9.5.3\c3p0-0.9.5.3.jar referenced one or more files that do not exist: file:/D:/tools/maven_jar/com/mchange/c3p0/0.9.5.3/mchange-commons-java-0.2.15.jar
+2020-05-18 22:33:44.890  INFO 11016 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-05-18 22:33:44.890  INFO 11016 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-05-18 22:33:45.519  INFO 11016 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-05-18 22:33:45.569  INFO 11016 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 43ms. Found 1 JPA repository interfaces.
+2020-05-18 22:33:46.083  INFO 11016 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-05-18 22:33:46.091  INFO 11016 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-05-18 22:33:46.091  INFO 11016 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-05-18 22:33:46.093  INFO 11016 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-05-18 22:33:46.093  INFO 11016 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-05-18 22:33:46.093  INFO 11016 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-05-18 22:33:46.096  INFO 11016 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-05-18 22:33:46.180  INFO 11016 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-05-18 22:33:46.181  INFO 11016 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1291 ms
+2020-05-18 22:33:46.311  INFO 11016 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-18 22:33:46.318  INFO 11016 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-05-18 22:33:46.422  INFO 11016 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-05-18 22:33:46.457  INFO 11016 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-18 22:33:46.494  INFO 11016 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.15.Final
+2020-05-18 22:33:46.591  INFO 11016 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-18 22:33:46.690  INFO 11016 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-05-18 22:33:47.051  INFO 11016 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-18 22:33:47.057  INFO 11016 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-05-18 22:33:47.263  INFO 11016 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2020-05-18 22:33:47.271  INFO 11016 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-05-18 22:33:47.271  INFO 11016 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.2 created.
+2020-05-18 22:33:47.274  INFO 11016 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Using db table-based data access locking (synchronization).
+2020-05-18 22:33:47.275  INFO 11016 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : JobStoreCMT initialized.
+2020-05-18 22:33:47.276  INFO 11016 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'schedulerFactoryBean' with instanceId 'LAPTOP-2Q04ONAQ1589812427264'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 20 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+2020-05-18 22:33:47.276  INFO 11016 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+2020-05-18 22:33:47.276  INFO 11016 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.2
+2020-05-18 22:33:47.276  INFO 11016 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: com.soft1851.springboot.quartz.config.QuartzConfig$AutowiringSpringBeanJobFactory@76b83c83
+2020-05-18 22:33:47.378  INFO 11016 --- [restartedMain] c.s.s.q.controller.DynamicJobController  : Job register name : first , group : job_group , cron : 0/5 * * * * ?
+2020-05-18 22:33:47.417  INFO 11016 --- [restartedMain] c.s.s.q.controller.DynamicJobController  : Job register name : second , group : helloworld , cron : 0/10 * * * * ?
+2020-05-18 22:33:47.431  INFO 11016 --- [restartedMain] c.s.s.q.controller.DynamicJobController  : Job register name : third , group : helloworld , cron : 0 37 20 * * ?
+2020-05-18 22:33:47.445  INFO 11016 --- [restartedMain] c.s.s.q.controller.DynamicJobController  : Job register name : four , group : helloworld , cron : 0 0/1 * * * ? *
+2020-05-18 22:33:47.445  INFO 11016 --- [restartedMain] c.s.s.q.controller.DynamicJobController  : Job jump name : four , Because four status is CLOSE
+2020-05-18 22:33:47.445  INFO 11016 --- [restartedMain] c.s.s.q.controller.DynamicJobController  : Job register name : hello Job , group : Nomal , cron : 0 0/2 * * * ？
+2020-05-18 22:33:47.445  INFO 11016 --- [restartedMain] c.s.s.q.controller.DynamicJobController  : Job jump name : hello Job , Because hello Job status is CLOSE
+2020-05-18 22:33:47.445  INFO 11016 --- [restartedMain] c.s.s.q.controller.DynamicJobController  : init success
+2020-05-18 22:33:47.468  WARN 11016 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-05-18 22:33:47.679  WARN 11016 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2020-05-18 22:33:47.703  WARN 11016 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2020-05-18 22:33:47.704  INFO 11016 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2020-05-18 22:33:47.704  INFO 11016 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_LAPTOP-2Q04ONAQ1589812427264 shutting down.
+2020-05-18 22:33:47.704  INFO 11016 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_LAPTOP-2Q04ONAQ1589812427264 paused.
+2020-05-18 22:33:47.704  INFO 11016 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_LAPTOP-2Q04ONAQ1589812427264 shutdown complete.
+2020-05-18 22:33:47.705  INFO 11016 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-05-18 22:33:47.707  INFO 11016 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-18 22:33:47.708  INFO 11016 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-05-18 22:33:47.716  INFO 11016 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-05-18 22:33:47.717  INFO 11016 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-05-18 22:33:47.726  INFO 11016 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-05-18 22:34:24.137  INFO 21416 --- [restartedMain] c.s.s.q.SpringBootQuartzApplication      : Starting SpringBootQuartzApplication on LAPTOP-2Q04ONAQ with PID 21416 (D:\dev\SpringBoot\spring-boot-review\spring-boot-quartz\target\classes started by ycshang in D:\dev\SpringBoot\spring-boot-review)
+2020-05-18 22:34:24.139  INFO 21416 --- [restartedMain] c.s.s.q.SpringBootQuartzApplication      : No active profile set, falling back to default profiles: default
+2020-05-18 22:34:24.169  INFO 21416 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in D:\tools\maven_jar\com\mchange\c3p0\0.9.5.3\c3p0-0.9.5.3.jar referenced one or more files that do not exist: file:/D:/tools/maven_jar/com/mchange/c3p0/0.9.5.3/mchange-commons-java-0.2.15.jar
+2020-05-18 22:34:24.169  INFO 21416 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-05-18 22:34:24.169  INFO 21416 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-05-18 22:34:24.623  INFO 21416 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-05-18 22:34:24.660  INFO 21416 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 32ms. Found 1 JPA repository interfaces.
+2020-05-18 22:34:24.978  INFO 21416 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-05-18 22:34:24.984  INFO 21416 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-05-18 22:34:24.984  INFO 21416 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-05-18 22:34:24.985  INFO 21416 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-05-18 22:34:24.986  INFO 21416 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-05-18 22:34:24.986  INFO 21416 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-05-18 22:34:24.988  INFO 21416 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-05-18 22:34:25.051  INFO 21416 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-05-18 22:34:25.051  INFO 21416 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 882 ms
+2020-05-18 22:34:25.154  INFO 21416 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-18 22:34:25.159  INFO 21416 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-05-18 22:34:25.239  INFO 21416 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-05-18 22:34:25.273  INFO 21416 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-18 22:34:25.308  INFO 21416 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.15.Final
+2020-05-18 22:34:25.387  INFO 21416 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-18 22:34:25.473  INFO 21416 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-05-18 22:34:25.807  INFO 21416 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-18 22:34:25.813  INFO 21416 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-05-18 22:34:25.998  INFO 21416 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2020-05-18 22:34:26.005  INFO 21416 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-05-18 22:34:26.005  INFO 21416 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.2 created.
+2020-05-18 22:34:26.007  INFO 21416 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Using db table-based data access locking (synchronization).
+2020-05-18 22:34:26.008  INFO 21416 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : JobStoreCMT initialized.
+2020-05-18 22:34:26.009  INFO 21416 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'schedulerFactoryBean' with instanceId 'LAPTOP-2Q04ONAQ1589812465999'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 20 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+2020-05-18 22:34:26.009  INFO 21416 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+2020-05-18 22:34:26.009  INFO 21416 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.2
+2020-05-18 22:34:26.009  INFO 21416 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: com.soft1851.springboot.quartz.config.QuartzConfig$AutowiringSpringBeanJobFactory@3ebef6bb
+2020-05-18 22:34:26.189  INFO 21416 --- [restartedMain] c.s.s.q.controller.DynamicJobController  : Job register name : first , group : job_group , cron : 0/5 * * * * ?
+2020-05-18 22:34:26.215  INFO 21416 --- [restartedMain] c.s.s.q.controller.DynamicJobController  : Job register name : second , group : helloworld , cron : 0/10 * * * * ?
+2020-05-18 22:34:26.226  INFO 21416 --- [restartedMain] c.s.s.q.controller.DynamicJobController  : Job register name : third , group : helloworld , cron : 0 37 20 * * ?
+2020-05-18 22:34:26.239  INFO 21416 --- [restartedMain] c.s.s.q.controller.DynamicJobController  : Job register name : four , group : helloworld , cron : 0 0/1 * * * ? *
+2020-05-18 22:34:26.240  INFO 21416 --- [restartedMain] c.s.s.q.controller.DynamicJobController  : Job jump name : four , Because four status is CLOSE
+2020-05-18 22:34:26.240  INFO 21416 --- [restartedMain] c.s.s.q.controller.DynamicJobController  : Job register name : hello Job , group : Nomal , cron : 0 0/2 * * * ？
+2020-05-18 22:34:26.240  INFO 21416 --- [restartedMain] c.s.s.q.controller.DynamicJobController  : Job jump name : hello Job , Because hello Job status is CLOSE
+2020-05-18 22:34:26.240  INFO 21416 --- [restartedMain] c.s.s.q.controller.DynamicJobController  : init success
+2020-05-18 22:34:26.268  WARN 21416 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-05-18 22:34:26.496  INFO 21416 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-05-18 22:34:26.532  INFO 21416 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-18 22:34:26.534  INFO 21416 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2020-05-18 22:34:26.548  INFO 21416 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_LAPTOP-2Q04ONAQ1589812465999 started.
+2020-05-18 22:34:26.548  INFO 21416 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-05-18 22:34:26.549  INFO 21416 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-05-18 22:34:26.558  INFO 21416 --- [restartedMain] c.s.s.q.SpringBootQuartzApplication      : Started SpringBootQuartzApplication in 2.671 seconds (JVM running for 3.312)
+2020-05-18 22:34:30.020  INFO 21416 --- [schedulerFactoryBean_Worker-1] c.s.springboot.quartz.job.DynamicJob     : Running Job name : first 
+2020-05-18 22:34:30.020  INFO 21416 --- [schedulerFactoryBean_Worker-1] c.s.springboot.quartz.job.DynamicJob     : Running Job description : 第一个恶
+2020-05-18 22:34:30.020  INFO 21416 --- [schedulerFactoryBean_Worker-1] c.s.springboot.quartz.job.DynamicJob     : Running Job group: null 
+2020-05-18 22:34:30.020  INFO 21416 --- [schedulerFactoryBean_Worker-1] c.s.springboot.quartz.job.DynamicJob     : Running Job cron : 0/5 * * * * ?
+2020-05-18 22:34:30.021  INFO 21416 --- [schedulerFactoryBean_Worker-1] c.s.springboot.quartz.job.DynamicJob     : Running Job jar path :  
+2020-05-18 22:34:30.021  INFO 21416 --- [schedulerFactoryBean_Worker-1] c.s.springboot.quartz.job.DynamicJob     : Running Job parameter : 1 
+2020-05-18 22:34:30.021  INFO 21416 --- [schedulerFactoryBean_Worker-1] c.s.springboot.quartz.job.DynamicJob     : Running Job vmParam : null 
+2020-05-18 22:34:30.021  INFO 21416 --- [schedulerFactoryBean_Worker-1] c.s.springboot.quartz.job.DynamicJob     : >>>>>>>>>>>>> Running Job has been completed , cost time : 0ms
+ 
+2020-05-18 22:34:30.036  INFO 21416 --- [schedulerFactoryBean_Worker-2] c.s.springboot.quartz.job.DynamicJob     : Running Job name : second 
+2020-05-18 22:34:30.036  INFO 21416 --- [schedulerFactoryBean_Worker-2] c.s.springboot.quartz.job.DynamicJob     : Running Job description : 第二个
+2020-05-18 22:34:30.036  INFO 21416 --- [schedulerFactoryBean_Worker-2] c.s.springboot.quartz.job.DynamicJob     : Running Job group: null 
+2020-05-18 22:34:30.037  INFO 21416 --- [schedulerFactoryBean_Worker-2] c.s.springboot.quartz.job.DynamicJob     : Running Job cron : 0/10 * * * * ?
+2020-05-18 22:34:30.037  INFO 21416 --- [schedulerFactoryBean_Worker-2] c.s.springboot.quartz.job.DynamicJob     : Running Job jar path : null 
+2020-05-18 22:34:30.037  INFO 21416 --- [schedulerFactoryBean_Worker-2] c.s.springboot.quartz.job.DynamicJob     : Running Job parameter : 2 
+2020-05-18 22:34:30.037  INFO 21416 --- [schedulerFactoryBean_Worker-2] c.s.springboot.quartz.job.DynamicJob     : Running Job vmParam : null 
+2020-05-18 22:34:30.037  INFO 21416 --- [schedulerFactoryBean_Worker-2] c.s.springboot.quartz.job.DynamicJob     : >>>>>>>>>>>>> Running Job has been completed , cost time : 0ms
+ 
+2020-05-18 22:34:35.008  INFO 21416 --- [schedulerFactoryBean_Worker-3] c.s.springboot.quartz.job.DynamicJob     : Running Job name : first 
+2020-05-18 22:34:35.008  INFO 21416 --- [schedulerFactoryBean_Worker-3] c.s.springboot.quartz.job.DynamicJob     : Running Job description : 第一个恶
+2020-05-18 22:34:35.008  INFO 21416 --- [schedulerFactoryBean_Worker-3] c.s.springboot.quartz.job.DynamicJob     : Running Job group: null 
+2020-05-18 22:34:35.008  INFO 21416 --- [schedulerFactoryBean_Worker-3] c.s.springboot.quartz.job.DynamicJob     : Running Job cron : 0/5 * * * * ?
+2020-05-18 22:34:35.008  INFO 21416 --- [schedulerFactoryBean_Worker-3] c.s.springboot.quartz.job.DynamicJob     : Running Job jar path :  
+2020-05-18 22:34:35.008  INFO 21416 --- [schedulerFactoryBean_Worker-3] c.s.springboot.quartz.job.DynamicJob     : Running Job parameter : 1 
+2020-05-18 22:34:35.008  INFO 21416 --- [schedulerFactoryBean_Worker-3] c.s.springboot.quartz.job.DynamicJob     : Running Job vmParam : null 
+2020-05-18 22:34:35.008  INFO 21416 --- [schedulerFactoryBean_Worker-3] c.s.springboot.quartz.job.DynamicJob     : >>>>>>>>>>>>> Running Job has been completed , cost time : 0ms
+ 
+2020-05-18 22:34:40.016  INFO 21416 --- [schedulerFactoryBean_Worker-4] c.s.springboot.quartz.job.DynamicJob     : Running Job name : first 
+2020-05-18 22:34:40.016  INFO 21416 --- [schedulerFactoryBean_Worker-4] c.s.springboot.quartz.job.DynamicJob     : Running Job description : 第一个恶
+2020-05-18 22:34:40.017  INFO 21416 --- [schedulerFactoryBean_Worker-4] c.s.springboot.quartz.job.DynamicJob     : Running Job group: null 
+2020-05-18 22:34:40.017  INFO 21416 --- [schedulerFactoryBean_Worker-4] c.s.springboot.quartz.job.DynamicJob     : Running Job cron : 0/5 * * * * ?
+2020-05-18 22:34:40.017  INFO 21416 --- [schedulerFactoryBean_Worker-4] c.s.springboot.quartz.job.DynamicJob     : Running Job jar path :  
+2020-05-18 22:34:40.017  INFO 21416 --- [schedulerFactoryBean_Worker-4] c.s.springboot.quartz.job.DynamicJob     : Running Job parameter : 1 
+2020-05-18 22:34:40.017  INFO 21416 --- [schedulerFactoryBean_Worker-4] c.s.springboot.quartz.job.DynamicJob     : Running Job vmParam : null 
+2020-05-18 22:34:40.017  INFO 21416 --- [schedulerFactoryBean_Worker-4] c.s.springboot.quartz.job.DynamicJob     : >>>>>>>>>>>>> Running Job has been completed , cost time : 0ms
+ 
+2020-05-18 22:34:40.031  INFO 21416 --- [schedulerFactoryBean_Worker-5] c.s.springboot.quartz.job.DynamicJob     : Running Job name : second 
+2020-05-18 22:34:40.031  INFO 21416 --- [schedulerFactoryBean_Worker-5] c.s.springboot.quartz.job.DynamicJob     : Running Job description : 第二个
+2020-05-18 22:34:40.032  INFO 21416 --- [schedulerFactoryBean_Worker-5] c.s.springboot.quartz.job.DynamicJob     : Running Job group: null 
+2020-05-18 22:34:40.032  INFO 21416 --- [schedulerFactoryBean_Worker-5] c.s.springboot.quartz.job.DynamicJob     : Running Job cron : 0/10 * * * * ?
+2020-05-18 22:34:40.032  INFO 21416 --- [schedulerFactoryBean_Worker-5] c.s.springboot.quartz.job.DynamicJob     : Running Job jar path : null 
+2020-05-18 22:34:40.032  INFO 21416 --- [schedulerFactoryBean_Worker-5] c.s.springboot.quartz.job.DynamicJob     : Running Job parameter : 2 
+2020-05-18 22:34:40.032  INFO 21416 --- [schedulerFactoryBean_Worker-5] c.s.springboot.quartz.job.DynamicJob     : Running Job vmParam : null 
+2020-05-18 22:34:40.032  INFO 21416 --- [schedulerFactoryBean_Worker-5] c.s.springboot.quartz.job.DynamicJob     : >>>>>>>>>>>>> Running Job has been completed , cost time : 0ms
+ 
+2020-05-18 22:34:45.017  INFO 21416 --- [schedulerFactoryBean_Worker-6] c.s.springboot.quartz.job.DynamicJob     : Running Job name : first 
+2020-05-18 22:34:45.017  INFO 21416 --- [schedulerFactoryBean_Worker-6] c.s.springboot.quartz.job.DynamicJob     : Running Job description : 第一个恶
+2020-05-18 22:34:45.017  INFO 21416 --- [schedulerFactoryBean_Worker-6] c.s.springboot.quartz.job.DynamicJob     : Running Job group: null 
+2020-05-18 22:34:45.017  INFO 21416 --- [schedulerFactoryBean_Worker-6] c.s.springboot.quartz.job.DynamicJob     : Running Job cron : 0/5 * * * * ?
+2020-05-18 22:34:45.017  INFO 21416 --- [schedulerFactoryBean_Worker-6] c.s.springboot.quartz.job.DynamicJob     : Running Job jar path :  
+2020-05-18 22:34:45.018  INFO 21416 --- [schedulerFactoryBean_Worker-6] c.s.springboot.quartz.job.DynamicJob     : Running Job parameter : 1 
+2020-05-18 22:34:45.018  INFO 21416 --- [schedulerFactoryBean_Worker-6] c.s.springboot.quartz.job.DynamicJob     : Running Job vmParam : null 
+2020-05-18 22:34:45.018  INFO 21416 --- [schedulerFactoryBean_Worker-6] c.s.springboot.quartz.job.DynamicJob     : >>>>>>>>>>>>> Running Job has been completed , cost time : 0ms
+ 
+2020-05-18 22:34:50.014  INFO 21416 --- [schedulerFactoryBean_Worker-7] c.s.springboot.quartz.job.DynamicJob     : Running Job name : first 
+2020-05-18 22:34:50.014  INFO 21416 --- [schedulerFactoryBean_Worker-7] c.s.springboot.quartz.job.DynamicJob     : Running Job description : 第一个恶
+2020-05-18 22:34:50.014  INFO 21416 --- [schedulerFactoryBean_Worker-7] c.s.springboot.quartz.job.DynamicJob     : Running Job group: null 
+2020-05-18 22:34:50.014  INFO 21416 --- [schedulerFactoryBean_Worker-7] c.s.springboot.quartz.job.DynamicJob     : Running Job cron : 0/5 * * * * ?
+2020-05-18 22:34:50.014  INFO 21416 --- [schedulerFactoryBean_Worker-7] c.s.springboot.quartz.job.DynamicJob     : Running Job jar path :  
+2020-05-18 22:34:50.014  INFO 21416 --- [schedulerFactoryBean_Worker-7] c.s.springboot.quartz.job.DynamicJob     : Running Job parameter : 1 
+2020-05-18 22:34:50.014  INFO 21416 --- [schedulerFactoryBean_Worker-7] c.s.springboot.quartz.job.DynamicJob     : Running Job vmParam : null 
+2020-05-18 22:34:50.014  INFO 21416 --- [schedulerFactoryBean_Worker-7] c.s.springboot.quartz.job.DynamicJob     : >>>>>>>>>>>>> Running Job has been completed , cost time : 0ms
+ 
+2020-05-18 22:34:50.029  INFO 21416 --- [schedulerFactoryBean_Worker-8] c.s.springboot.quartz.job.DynamicJob     : Running Job name : second 
+2020-05-18 22:34:50.029  INFO 21416 --- [schedulerFactoryBean_Worker-8] c.s.springboot.quartz.job.DynamicJob     : Running Job description : 第二个
+2020-05-18 22:34:50.029  INFO 21416 --- [schedulerFactoryBean_Worker-8] c.s.springboot.quartz.job.DynamicJob     : Running Job group: null 
+2020-05-18 22:34:50.029  INFO 21416 --- [schedulerFactoryBean_Worker-8] c.s.springboot.quartz.job.DynamicJob     : Running Job cron : 0/10 * * * * ?
+2020-05-18 22:34:50.030  INFO 21416 --- [schedulerFactoryBean_Worker-8] c.s.springboot.quartz.job.DynamicJob     : Running Job jar path : null 
+2020-05-18 22:34:50.030  INFO 21416 --- [schedulerFactoryBean_Worker-8] c.s.springboot.quartz.job.DynamicJob     : Running Job parameter : 2 
+2020-05-18 22:34:50.030  INFO 21416 --- [schedulerFactoryBean_Worker-8] c.s.springboot.quartz.job.DynamicJob     : Running Job vmParam : null 
+2020-05-18 22:34:50.030  INFO 21416 --- [schedulerFactoryBean_Worker-8] c.s.springboot.quartz.job.DynamicJob     : >>>>>>>>>>>>> Running Job has been completed , cost time : 0ms
+ 
+2020-05-18 22:34:55.019  INFO 21416 --- [schedulerFactoryBean_Worker-9] c.s.springboot.quartz.job.DynamicJob     : Running Job name : first 
+2020-05-18 22:34:55.020  INFO 21416 --- [schedulerFactoryBean_Worker-9] c.s.springboot.quartz.job.DynamicJob     : Running Job description : 第一个恶
+2020-05-18 22:34:55.020  INFO 21416 --- [schedulerFactoryBean_Worker-9] c.s.springboot.quartz.job.DynamicJob     : Running Job group: null 
+2020-05-18 22:34:55.021  INFO 21416 --- [schedulerFactoryBean_Worker-9] c.s.springboot.quartz.job.DynamicJob     : Running Job cron : 0/5 * * * * ?
+2020-05-18 22:34:55.021  INFO 21416 --- [schedulerFactoryBean_Worker-9] c.s.springboot.quartz.job.DynamicJob     : Running Job jar path :  
+2020-05-18 22:34:55.021  INFO 21416 --- [schedulerFactoryBean_Worker-9] c.s.springboot.quartz.job.DynamicJob     : Running Job parameter : 1 
+2020-05-18 22:34:55.021  INFO 21416 --- [schedulerFactoryBean_Worker-9] c.s.springboot.quartz.job.DynamicJob     : Running Job vmParam : null 
+2020-05-18 22:34:55.021  INFO 21416 --- [schedulerFactoryBean_Worker-9] c.s.springboot.quartz.job.DynamicJob     : >>>>>>>>>>>>> Running Job has been completed , cost time : 0ms
+ 
+2020-05-18 22:35:00.008  INFO 21416 --- [schedulerFactoryBean_Worker-10] c.s.springboot.quartz.job.DynamicJob     : Running Job name : first 
+2020-05-18 22:35:00.008  INFO 21416 --- [schedulerFactoryBean_Worker-10] c.s.springboot.quartz.job.DynamicJob     : Running Job description : 第一个恶
+2020-05-18 22:35:00.008  INFO 21416 --- [schedulerFactoryBean_Worker-10] c.s.springboot.quartz.job.DynamicJob     : Running Job group: null 
+2020-05-18 22:35:00.008  INFO 21416 --- [schedulerFactoryBean_Worker-10] c.s.springboot.quartz.job.DynamicJob     : Running Job cron : 0/5 * * * * ?
+2020-05-18 22:35:00.008  INFO 21416 --- [schedulerFactoryBean_Worker-10] c.s.springboot.quartz.job.DynamicJob     : Running Job jar path :  
+2020-05-18 22:35:00.008  INFO 21416 --- [schedulerFactoryBean_Worker-10] c.s.springboot.quartz.job.DynamicJob     : Running Job parameter : 1 
+2020-05-18 22:35:00.009  INFO 21416 --- [schedulerFactoryBean_Worker-10] c.s.springboot.quartz.job.DynamicJob     : Running Job vmParam : null 
+2020-05-18 22:35:00.009  INFO 21416 --- [schedulerFactoryBean_Worker-10] c.s.springboot.quartz.job.DynamicJob     : >>>>>>>>>>>>> Running Job has been completed , cost time : 0ms
+ 
+2020-05-18 22:35:00.022  INFO 21416 --- [schedulerFactoryBean_Worker-11] c.s.springboot.quartz.job.DynamicJob     : Running Job name : second 
+2020-05-18 22:35:00.022  INFO 21416 --- [schedulerFactoryBean_Worker-11] c.s.springboot.quartz.job.DynamicJob     : Running Job description : 第二个
+2020-05-18 22:35:00.022  INFO 21416 --- [schedulerFactoryBean_Worker-11] c.s.springboot.quartz.job.DynamicJob     : Running Job group: null 
+2020-05-18 22:35:00.022  INFO 21416 --- [schedulerFactoryBean_Worker-11] c.s.springboot.quartz.job.DynamicJob     : Running Job cron : 0/10 * * * * ?
+2020-05-18 22:35:00.022  INFO 21416 --- [schedulerFactoryBean_Worker-11] c.s.springboot.quartz.job.DynamicJob     : Running Job jar path : null 
+2020-05-18 22:35:00.022  INFO 21416 --- [schedulerFactoryBean_Worker-11] c.s.springboot.quartz.job.DynamicJob     : Running Job parameter : 2 
+2020-05-18 22:35:00.022  INFO 21416 --- [schedulerFactoryBean_Worker-11] c.s.springboot.quartz.job.DynamicJob     : Running Job vmParam : null 
+2020-05-18 22:35:00.022  INFO 21416 --- [schedulerFactoryBean_Worker-11] c.s.springboot.quartz.job.DynamicJob     : >>>>>>>>>>>>> Running Job has been completed , cost time : 0ms
+ 
+2020-05-18 22:35:05.019  INFO 21416 --- [schedulerFactoryBean_Worker-12] c.s.springboot.quartz.job.DynamicJob     : Running Job name : first 
+2020-05-18 22:35:05.020  INFO 21416 --- [schedulerFactoryBean_Worker-12] c.s.springboot.quartz.job.DynamicJob     : Running Job description : 第一个恶
+2020-05-18 22:35:05.020  INFO 21416 --- [schedulerFactoryBean_Worker-12] c.s.springboot.quartz.job.DynamicJob     : Running Job group: null 
+2020-05-18 22:35:05.020  INFO 21416 --- [schedulerFactoryBean_Worker-12] c.s.springboot.quartz.job.DynamicJob     : Running Job cron : 0/5 * * * * ?
+2020-05-18 22:35:05.020  INFO 21416 --- [schedulerFactoryBean_Worker-12] c.s.springboot.quartz.job.DynamicJob     : Running Job jar path :  
+2020-05-18 22:35:05.020  INFO 21416 --- [schedulerFactoryBean_Worker-12] c.s.springboot.quartz.job.DynamicJob     : Running Job parameter : 1 
+2020-05-18 22:35:05.020  INFO 21416 --- [schedulerFactoryBean_Worker-12] c.s.springboot.quartz.job.DynamicJob     : Running Job vmParam : null 
+2020-05-18 22:35:05.020  INFO 21416 --- [schedulerFactoryBean_Worker-12] c.s.springboot.quartz.job.DynamicJob     : >>>>>>>>>>>>> Running Job has been completed , cost time : 0ms
+ 
+2020-05-18 22:35:10.015  INFO 21416 --- [schedulerFactoryBean_Worker-13] c.s.springboot.quartz.job.DynamicJob     : Running Job name : first 
+2020-05-18 22:35:10.015  INFO 21416 --- [schedulerFactoryBean_Worker-13] c.s.springboot.quartz.job.DynamicJob     : Running Job description : 第一个恶
+2020-05-18 22:35:10.015  INFO 21416 --- [schedulerFactoryBean_Worker-13] c.s.springboot.quartz.job.DynamicJob     : Running Job group: null 
+2020-05-18 22:35:10.015  INFO 21416 --- [schedulerFactoryBean_Worker-13] c.s.springboot.quartz.job.DynamicJob     : Running Job cron : 0/5 * * * * ?
+2020-05-18 22:35:10.015  INFO 21416 --- [schedulerFactoryBean_Worker-13] c.s.springboot.quartz.job.DynamicJob     : Running Job jar path :  
+2020-05-18 22:35:10.016  INFO 21416 --- [schedulerFactoryBean_Worker-13] c.s.springboot.quartz.job.DynamicJob     : Running Job parameter : 1 
+2020-05-18 22:35:10.016  INFO 21416 --- [schedulerFactoryBean_Worker-13] c.s.springboot.quartz.job.DynamicJob     : Running Job vmParam : null 
+2020-05-18 22:35:10.016  INFO 21416 --- [schedulerFactoryBean_Worker-13] c.s.springboot.quartz.job.DynamicJob     : >>>>>>>>>>>>> Running Job has been completed , cost time : 0ms
+ 
+2020-05-18 22:35:10.030  INFO 21416 --- [schedulerFactoryBean_Worker-14] c.s.springboot.quartz.job.DynamicJob     : Running Job name : second 
+2020-05-18 22:35:10.030  INFO 21416 --- [schedulerFactoryBean_Worker-14] c.s.springboot.quartz.job.DynamicJob     : Running Job description : 第二个
+2020-05-18 22:35:10.030  INFO 21416 --- [schedulerFactoryBean_Worker-14] c.s.springboot.quartz.job.DynamicJob     : Running Job group: null 
+2020-05-18 22:35:10.030  INFO 21416 --- [schedulerFactoryBean_Worker-14] c.s.springboot.quartz.job.DynamicJob     : Running Job cron : 0/10 * * * * ?
+2020-05-18 22:35:10.031  INFO 21416 --- [schedulerFactoryBean_Worker-14] c.s.springboot.quartz.job.DynamicJob     : Running Job jar path : null 
+2020-05-18 22:35:10.031  INFO 21416 --- [schedulerFactoryBean_Worker-14] c.s.springboot.quartz.job.DynamicJob     : Running Job parameter : 2 
+2020-05-18 22:35:10.031  INFO 21416 --- [schedulerFactoryBean_Worker-14] c.s.springboot.quartz.job.DynamicJob     : Running Job vmParam : null 
+2020-05-18 22:35:10.031  INFO 21416 --- [schedulerFactoryBean_Worker-14] c.s.springboot.quartz.job.DynamicJob     : >>>>>>>>>>>>> Running Job has been completed , cost time : 0ms
+ 
+2020-05-18 22:35:15.015  INFO 21416 --- [schedulerFactoryBean_Worker-15] c.s.springboot.quartz.job.DynamicJob     : Running Job name : first 
+2020-05-18 22:35:15.016  INFO 21416 --- [schedulerFactoryBean_Worker-15] c.s.springboot.quartz.job.DynamicJob     : Running Job description : 第一个恶
+2020-05-18 22:35:15.016  INFO 21416 --- [schedulerFactoryBean_Worker-15] c.s.springboot.quartz.job.DynamicJob     : Running Job group: null 
+2020-05-18 22:35:15.016  INFO 21416 --- [schedulerFactoryBean_Worker-15] c.s.springboot.quartz.job.DynamicJob     : Running Job cron : 0/5 * * * * ?
+2020-05-18 22:35:15.016  INFO 21416 --- [schedulerFactoryBean_Worker-15] c.s.springboot.quartz.job.DynamicJob     : Running Job jar path :  
+2020-05-18 22:35:15.016  INFO 21416 --- [schedulerFactoryBean_Worker-15] c.s.springboot.quartz.job.DynamicJob     : Running Job parameter : 1 
+2020-05-18 22:35:15.016  INFO 21416 --- [schedulerFactoryBean_Worker-15] c.s.springboot.quartz.job.DynamicJob     : Running Job vmParam : null 
+2020-05-18 22:35:15.016  INFO 21416 --- [schedulerFactoryBean_Worker-15] c.s.springboot.quartz.job.DynamicJob     : >>>>>>>>>>>>> Running Job has been completed , cost time : 0ms
+ 
+2020-05-18 22:35:20.015  INFO 21416 --- [schedulerFactoryBean_Worker-16] c.s.springboot.quartz.job.DynamicJob     : Running Job name : first 
+2020-05-18 22:35:20.015  INFO 21416 --- [schedulerFactoryBean_Worker-16] c.s.springboot.quartz.job.DynamicJob     : Running Job description : 第一个恶
+2020-05-18 22:35:20.015  INFO 21416 --- [schedulerFactoryBean_Worker-16] c.s.springboot.quartz.job.DynamicJob     : Running Job group: null 
+2020-05-18 22:35:20.016  INFO 21416 --- [schedulerFactoryBean_Worker-16] c.s.springboot.quartz.job.DynamicJob     : Running Job cron : 0/5 * * * * ?
+2020-05-18 22:35:20.016  INFO 21416 --- [schedulerFactoryBean_Worker-16] c.s.springboot.quartz.job.DynamicJob     : Running Job jar path :  
+2020-05-18 22:35:20.016  INFO 21416 --- [schedulerFactoryBean_Worker-16] c.s.springboot.quartz.job.DynamicJob     : Running Job parameter : 1 
+2020-05-18 22:35:20.016  INFO 21416 --- [schedulerFactoryBean_Worker-16] c.s.springboot.quartz.job.DynamicJob     : Running Job vmParam : null 
+2020-05-18 22:35:20.016  INFO 21416 --- [schedulerFactoryBean_Worker-16] c.s.springboot.quartz.job.DynamicJob     : >>>>>>>>>>>>> Running Job has been completed , cost time : 0ms
+ 
+2020-05-18 22:35:20.029  INFO 21416 --- [schedulerFactoryBean_Worker-17] c.s.springboot.quartz.job.DynamicJob     : Running Job name : second 
+2020-05-18 22:35:20.029  INFO 21416 --- [schedulerFactoryBean_Worker-17] c.s.springboot.quartz.job.DynamicJob     : Running Job description : 第二个
+2020-05-18 22:35:20.029  INFO 21416 --- [schedulerFactoryBean_Worker-17] c.s.springboot.quartz.job.DynamicJob     : Running Job group: null 
+2020-05-18 22:35:20.029  INFO 21416 --- [schedulerFactoryBean_Worker-17] c.s.springboot.quartz.job.DynamicJob     : Running Job cron : 0/10 * * * * ?
+2020-05-18 22:35:20.029  INFO 21416 --- [schedulerFactoryBean_Worker-17] c.s.springboot.quartz.job.DynamicJob     : Running Job jar path : null 
+2020-05-18 22:35:20.029  INFO 21416 --- [schedulerFactoryBean_Worker-17] c.s.springboot.quartz.job.DynamicJob     : Running Job parameter : 2 
+2020-05-18 22:35:20.029  INFO 21416 --- [schedulerFactoryBean_Worker-17] c.s.springboot.quartz.job.DynamicJob     : Running Job vmParam : null 
+2020-05-18 22:35:20.029  INFO 21416 --- [schedulerFactoryBean_Worker-17] c.s.springboot.quartz.job.DynamicJob     : >>>>>>>>>>>>> Running Job has been completed , cost time : 0ms
+ 
+2020-05-18 22:35:25.015  INFO 21416 --- [schedulerFactoryBean_Worker-18] c.s.springboot.quartz.job.DynamicJob     : Running Job name : first 
+2020-05-18 22:35:25.015  INFO 21416 --- [schedulerFactoryBean_Worker-18] c.s.springboot.quartz.job.DynamicJob     : Running Job description : 第一个恶
+2020-05-18 22:35:25.015  INFO 21416 --- [schedulerFactoryBean_Worker-18] c.s.springboot.quartz.job.DynamicJob     : Running Job group: null 
+2020-05-18 22:35:25.015  INFO 21416 --- [schedulerFactoryBean_Worker-18] c.s.springboot.quartz.job.DynamicJob     : Running Job cron : 0/5 * * * * ?
+2020-05-18 22:35:25.015  INFO 21416 --- [schedulerFactoryBean_Worker-18] c.s.springboot.quartz.job.DynamicJob     : Running Job jar path :  
+2020-05-18 22:35:25.015  INFO 21416 --- [schedulerFactoryBean_Worker-18] c.s.springboot.quartz.job.DynamicJob     : Running Job parameter : 1 
+2020-05-18 22:35:25.015  INFO 21416 --- [schedulerFactoryBean_Worker-18] c.s.springboot.quartz.job.DynamicJob     : Running Job vmParam : null 
+2020-05-18 22:35:25.015  INFO 21416 --- [schedulerFactoryBean_Worker-18] c.s.springboot.quartz.job.DynamicJob     : >>>>>>>>>>>>> Running Job has been completed , cost time : 0ms
+ 

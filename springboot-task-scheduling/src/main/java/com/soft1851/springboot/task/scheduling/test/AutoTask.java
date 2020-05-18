@@ -15,7 +15,7 @@ import java.time.LocalDateTime;
 import java.util.concurrent.Executors;
 
 @Slf4j
-@Configuration
+//@Configuration
 public class AutoTask implements SchedulingConfigurer {
     @Resource
     protected CronRepository cronRepository;

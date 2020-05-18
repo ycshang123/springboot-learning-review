@@ -8,19 +8,19 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
-@Configuration
+//@Configuration
 public class WebConfig implements WebMvcConfigurer {
 
-    //内部端口
-    @Value("${server.trustedPort:null}")
-    private String trustedPort;
-
-    //内部接口URL路径前缀
-    @Value("${server.trustedPathPrefix:null}")
-    private String trustedPathPrefix;
-
-    @Bean
-    public FilterRegistrationBean<TrustedEndpointsFilter> trustedEndpointsFilter() {
-        return new FilterRegistrationBean<>(new TrustedEndpointsFilter(trustedPort, trustedPathPrefix));
-    }
+//    //内部端口
+//    @Value("${server.trustedPort:null}")
+//    private String trustedPort;
+//
+//    //内部接口URL路径前缀
+//    @Value("${server.trustedPathPrefix:null}")
+//    private String trustedPathPrefix;
+//
+//    @Bean
+//    public FilterRegistrationBean<TrustedEndpointsFilter> trustedEndpointsFilter() {
+//        return new FilterRegistrationBean<>(new TrustedEndpointsFilter(trustedPort, trustedPathPrefix));
+//    }
 }
