@@ -1,6 +1,8 @@
 
   server:
     port: 8080
+    trustedPort: 8081
+    trustedPathPrefix: /internal/
   spring:
     mail:
       host: smtp.qq.com
@@ -8,6 +10,7 @@
       username: 351234359@qq.com
       password: mixgnhwvyubibica
       default-encoding: UTF-8
+
 
     datasource:
       url: jdbc:mysql://127.0.0.1:3306/test?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=UTF-8&useSSL=false&allowPublicKeyRetrieval=true
